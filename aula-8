@@ -1,0 +1,65 @@
+// this is a js file
+//Bruno de Freitas Leite
+
+// 1. resposta
+/*exercicio de interpretacao
+
+false
+false
+true 
+boolean
+
+*/
+// 2. resposta
+//Sim, ocorre o problema que ele acaba juntando os valores ao inves de somar eles.
+//Sera impresso na tela a junçao dos dois valores.
+
+// 3. resposta
+/*
+let n1 = Number(prompt("Digite um numero!"));
+let n2 = Number(prompt("Digite outro numero!"));
+const total = n1 + n2;
+console.log(total);
+*/
+//exercico de escrita
+/*
+let nome = prompt("Qual o seu nome?");
+console.log(nome);
+let idade = prompt("Qual a sua idade?");
+console.log(idade);
+let melhoramigo = prompt("Qual a idade do seu melhor amigo?");
+//toString = melhoramigo <= idade;
+console.log(melhoramigo.toString());
+let diferença = Number(melhoramigo - idade);
+console.log("Voce tem uma diferença de", diferença,"anos do seu melhor amigo");
+
+//
+let par = prompt("Escolha um numero par");
+console.log(par);
+let divisao = Number(par % 2);
+console.log(divisao);
+//Se inserir um numero impar, vai resulta em um valor com virgula.
+
+//
+let idade = prompt("Qual a sua idade?");
+console.log(idade);
+let meses = Number(idade * 12);
+console.log(meses);
+let dias = Number(meses * 30);
+console.log(dias);
+let horas = Number(dias * 24);
+console.log(horas);
+*/
+
+//
+let n1 = prompt("Escolha um numero");
+console.log(n1);
+let n2 = prompt("Escolha outro numero");
+console.log(n2);
+console.log(n1 > n2);
+console.log(n1 === n2);
+console.log(n1 / n2);
+console.log("O",n1,"é maior que",n2, "?", n1 >n2);
+console.log("O",n1, "é igual ao",n2, "?", Boolean(n1 === n2));
+console.log("O",n1, "é divisivel pelo",n2, "?", Boolean(n1 / n2));
+
